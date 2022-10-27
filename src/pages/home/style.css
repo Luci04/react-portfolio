@@ -90,10 +90,9 @@ section {
 }
 
 .intro_sec .h_bg-image {
-  background-image: url("https://drive.google.com/file/d/1DWVHJa72t5mLklcvQxPx6jxCh8ERtEEx/view?usp=sharing");
+  background-image: url("../../assets/images/1612897383195.jfif");
   background-size: cover;
-  background-position: center;
-  min-height: 700px;
+  background-position: top;
   position: relative;
 }
 

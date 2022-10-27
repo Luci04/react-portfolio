@@ -16,7 +16,8 @@ const introdata = {
     I am progressive minded and in tune with new developments in my field.
     I enjoy collective brainstorming sessions which allow me to coordinate activities to achieve a common goal.
   `,
-  your_img_url: "./assets/images/imaage.jpg",
+  your_img_url:
+    "https://scontent.frpr1-1.fna.fbcdn.net/v/t1.18169-9/26908030_161449951153087_5788582153468324546_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=coO19tWPW7kAX-LFkNw&_nc_ht=scontent.frpr1-1.fna&oh=00_AfDNlLmltBK5nbgbH6eSVn5pyn7QUA_rW0yrDcitRXFNZg&oe=6381BD28",
 };
 
 const dataabout = {
