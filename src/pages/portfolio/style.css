@@ -62,7 +62,8 @@
 
 .po_item:hover img {
   -webkit-filter: grayscale(0);
-  /*GoogleChrome,Safari6+&Opera15+*/filter: grayscale(0);
+  /*GoogleChrome,Safari6+&Opera15+*/
+  filter: grayscale(0);
 }
 
 .po_item:hover .content {
@@ -86,4 +87,21 @@
 
 .po_item .content a:hover {
   text-decoration: none;
+}
+
+.po_btn {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: white;
+}
+
+.po_btn_selected {
+  border: 1px solid var(--secondary-color);
+  background-color: black;
+  color: white;
 }
