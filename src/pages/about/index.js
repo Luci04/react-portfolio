@@ -3,8 +3,17 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataabout, meta, worktimeline, skills } from "../../content_option";
+import { useInView } from 'react-intersection-observer';
+
 
 export const About = () => {
+
+  const { ref, inView, entry } = useInView({
+    /* Optional options */
+    threshold: 0,
+  });
+
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -31,7 +40,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Timline</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -53,14 +62,14 @@ export const About = () => {
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
-          <Col lg="7">
+          <Col ref={ref} lg="7">
             {skills.map((data, i) => {
               return (
                 <div key={i}>
                   <h3 className="progress-title">{data.name}</h3>
                   <div className="progress">
                     <div
-                      className="progress-bar"
+                      className={`progress-bar ` + (inView ? 'progress-bar-animation' : '')}
                       style={{
                         width: `${data.value}%`,
                       }}

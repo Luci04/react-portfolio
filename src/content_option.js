@@ -29,12 +29,22 @@ const worktimeline = [
   {
     jobtitle: "ReactJs Intern",
     where: "MobileFirst Applications",
-    date: "Sep - Present",
+    date: "Sep 2022 - Present",
   },
   {
     jobtitle: "Full Stack Web Developer",
     where: "River House Technology",
-    date: "July - Oct 2021",
+    date: "July 2021 - Oct 2021",
+  },
+  {
+    jobtitle: "Bachelor of Technology CSE",
+    where: "Shri Shankaracharya Technical Campus",
+    date: "May 2021 - Aug 2022",
+  },
+  {
+    jobtitle: "Higher Secondary",
+    where: "Kendriya Vidyalaya",
+    date: "May 20217 - April 2018",
   },
 ];
 
@@ -48,22 +58,21 @@ const skills = [
     value: 85,
   },
   {
-    name: "React-Native",
+    name: "Git/GitHub",
     value: 60,
   },
   {
-    name: "Javascript",
+    name: "JavaScript",
     value: 80,
   },
   {
     name: "React",
     value: 60,
   },
-
   {
-    name: "Node and Express",
+    name: "Node",
     value: 60,
-  },
+  }
 ];
 
 const services = [
