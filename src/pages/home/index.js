@@ -42,7 +42,7 @@ export const Home = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://drive.google.com/file/d/1Aq3BvWEaLFpYr1vrXDtiqoJrBX__cJRb/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1dbaAqRGBACoHu6RYThPusmSbKdG9CkxL/view"
                     className="text_2"
                   >
                     <div id="button_p" className="ac_btn btn ">

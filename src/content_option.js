@@ -10,7 +10,7 @@ const meta = {
 const introdata = {
   title: "I’m Akash Lilhare",
   animated: {
-    first: "I love coding",
+    first: "I love Programming",
     second: "I code cool websites",
     third: "I develop cool mobile Apps",
   },
@@ -24,8 +24,10 @@ const introdata = {
 
 const dataabout = {
   title: "A bit about my self",
-  aboutme: `I Love to work with "MERN" Stack. I have solved over 800 questions on leetcode and have also participated in many coding contests on codechef, codeforces. 
-    I am Rank 1 in Geek for geeks College Ranking. I also have Intership Experience on building React Apps`,
+  aboutme: `I'm a skilled Flutter developer with experience building sleek, performant, 
+  and user-friendly mobile applications. With a strong foundation in Dart and the Flutter framework.
+  I am dedicated to writing clean, maintainable code and keeping up with the latest trends in mobile development.
+  My passion for creating beautiful, functional applications drives me to always strive for excellence.`,
 };
 const worktimeline = [
   {
@@ -199,6 +201,7 @@ const socialprofils = {
   twitter: "",
   github: "https://github.com/akashlilhare",
   linkedin: "https://www.linkedin.com/in/akashlilhare/",
+  instagram: "https://www.instagram.com/akash__lilhare/"
 };
 
 const languages = ["all", "React", "Node", "Express", "HTML/CSS", "JavaScript", "Sanity"];

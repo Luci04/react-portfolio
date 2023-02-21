@@ -99,6 +99,8 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .ac_btn {
