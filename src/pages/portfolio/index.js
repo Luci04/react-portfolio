@@ -31,7 +31,6 @@ export const Portfolio = () => {
             <h1 className="display-4 mb-4"> Projects </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
-
           <Col lg="8">
             {
               languages.map((ele) => {
@@ -39,35 +38,30 @@ export const Portfolio = () => {
               })
             }
           </Col>
-
         </Row>
-
-        <motion.div
+        <div
           layout
           className="mb-5 po_items_ho">
-          <AnimatePresence>
-            {dataportfolio.filter((ele) => ele.tags.includes(selected)).map((data, i) => {
-              return (
-                <motion.div
-                  animate={{ opacity: 1, scale: 1 }}
-                  initial={{ opacity: 0, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0 }}
-                  transition={{ duration: .8 }}
-                  key={data.index} className="po_item">
-                  <img src={data.img} alt="" />
-                  <div className="content">
-                    <p  >{data.desctiption}</p>
-                    <a target="_blank" rel="noopener noreferrer" href={data.link}>
-                      view project
-                    </a>
-                  </div>
-                </motion.div>
-              )
-            })
-            }
-          </AnimatePresence>
-        </motion.div>
-
+          {dataportfolio.filter((ele) => ele.tags.includes(selected)).map((data, i) => {
+            return (
+              <div
+                animate={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 0, scale: 1 }}
+                exit={{ opacity: 0, scale: 0 }}
+                transition={{ duration: .8 }}
+                key={i} className="po_item">
+                <img src={data.img} alt="" />
+                <div className="content">
+                  <p  >{data.desctiption}</p>
+                  <a target="_blank" rel="noopener noreferrer" href={data.link}>
+                    view project
+                  </a>
+                </div>
+              </div>
+            )
+          })
+          }
+        </div>
       </Container>
     </HelmetProvider >
   );

@@ -128,6 +128,14 @@ const dataportfolio = [
     link: "https://luci04.github.io/Color-Palette/",
   },
   {
+    tags: ["all", "React", "HTML/CSS", "JavaScript", "Node", "Express", "MongoDB"],
+    index: 6,
+    img: "https://i.ytimg.com/vi/Fva-ufjXmqQ/maxresdefault.jpg",
+    desctiption:
+      "Node server Developer Responsible for Consuming REST API",
+    link: "https://github.com/Luci04/Digital-Menu",
+  },
+  {
     tags: ["all", "React", "HTML/CSS", "JavaScript"],
     index: 6,
     img: "https://github.com/Luci04/Sorting-Visualizer/raw/master/Sorting.gif",
@@ -135,63 +143,11 @@ const dataportfolio = [
       "React Based Application Where You Can see what happen Over an Array when a Sorting Algo. is Applied",
     link: "https://luci04.github.io/Sorting-Visualizer/",
   },
-
-  // {
-  //   img: "https://picsum.photos/400/300/?grayscale",
-  //   desctiption:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/700/?grayscale",
-  //   desctiption:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-
-  // {
-  //   img: "https://picsum.photos/400/600/?grayscale",
-  //   desctiption:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/300/?grayscale",
-  //   desctiption:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/?grayscale",
-  //   desctiption:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/550/?grayscale",
-  //   desctiption:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/?grayscale",
-  //   desctiption:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/700/?grayscale",
-  //   desctiption:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
 ];
 
 const contactConfig = {
   YOUR_EMAIL: "avinashukla2000@gmail.com",
   YOUR_FONE: "+91-8827040821",
-  // creat an emailjs.com account
-  // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: "service_whqqvgn",
   YOUR_TEMPLATE_ID: "template_g3lvh2q",
   YOUR_USER_ID: "_N_YVow0XZ97Jlxps",
