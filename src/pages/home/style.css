@@ -87,7 +87,8 @@ section {
 
 .intro_sec .text h1 {
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
   font-weight: 700;
 }
 
@@ -229,4 +230,8 @@ section {
 
 .intro_sec .h_bg-image {
   filter: saturate(0.5);
+}
+
+.Typewriter {
+  display: inline-block;
 }

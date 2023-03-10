@@ -6,11 +6,11 @@ const meta = {
 };
 
 const introdata = {
-  title: "I’m Avinash Shukla",
+  title: "Avinash Shukla",
   animated: {
-    first: "I love coding",
-    second: "I code cool websites",
-    third: "I develop mobile apps",
+    first: "websites int React",
+    second: "apps in React-Native",
+    third: "APIs in NodeJS",
   },
   description: `
     I am progressive minded and in tune with new developments in my field.

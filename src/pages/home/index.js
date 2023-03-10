@@ -21,6 +21,7 @@ export const Home = () => {
               <div className="intro mx-auto">
                 <h2 className="mb-1x">{introdata.title}</h2>
                 <h1 className="fluidz-48 mb-1x">
+                  I code {" "}
                   <Typewriter
                     options={{
                       strings: [
@@ -30,7 +31,7 @@ export const Home = () => {
                       ],
                       autoStart: true,
                       loop: true,
-                      deleteSpeed: 10,
+                      deleteSpeed: 5,
                     }}
                   />
                 </h1>
