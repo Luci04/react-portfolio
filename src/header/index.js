@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
@@ -12,6 +12,18 @@ const Headermain = () => {
     setActive(!isActive);
     document.body.classList.toggle("ovhidden");
   };
+
+  useEffect(() => {
+    const menu = document.getElementById("menu");
+
+    Array.from(document.getElementsByClassName("menu-item"))
+      .forEach((item, index) => {
+        item.onmouseover = () => {
+          menu.dataset.activeIndex = index;
+        }
+      });
+  }, [])
+
 
   return (
     <>
@@ -30,7 +42,17 @@ const Headermain = () => {
 
         <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
           <div className="bg__menu h-100">
-            <div className="menu__wrapper">
+            <div id="menu">
+              <div id="menu-items">
+                <div class="menu-item">Home</div>
+                <div class="menu-item">Shop</div>
+                <div class="menu-item">About</div>
+                <div class="menu-item">Contact Us</div>
+              </div>
+              <div id="menu-background-pattern"></div>
+              <div id="menu-background-image"></div>
+            </div>
+            {/* <div className="menu__wrapper">
               <div className="menu__container p-3">
                 <ul className="the_menu">
                   <li className="menu_item ">
@@ -57,7 +79,8 @@ const Headermain = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
+
           </div>
           {/* <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
             <div className="d-flex">
