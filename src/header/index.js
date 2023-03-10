@@ -44,10 +44,18 @@ const Headermain = () => {
           <div className="bg__menu h-100">
             <div id="menu">
               <div id="menu-items">
-                <div class="menu-item">Home</div>
-                <div class="menu-item">Shop</div>
-                <div class="menu-item">About</div>
-                <div class="menu-item">Contact Us</div>
+                <Link onClick={handleToggle} to="/" >
+                  <div class="menu-item">Home</div>
+                </Link>
+                <Link onClick={handleToggle} to="/project">
+                  <div class="menu-item">Project</div>
+                </Link>
+                <Link onClick={handleToggle} to="/about">
+                  <div class="menu-item">About</div>
+                </Link>
+                <Link onClick={handleToggle} to="/contact">
+                  <div class="menu-item">Contact Us</div>
+                </Link>
               </div>
               <div id="menu-background-pattern"></div>
               <div id="menu-background-image"></div>
